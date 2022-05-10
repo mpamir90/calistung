@@ -155,66 +155,6 @@ class GameKuisPage extends StatelessWidget {
                     Get.to(KuisDetailPage(listKuis: listKuis));
                   },
                 ),
-                ItemChoice(
-                  title: "Perkalian",
-                  width: 130,
-                  assetPath: AssetPath.oneTwoThreeFour,
-                  onTap: () {
-                    final List<KuisModel> listKuis = [
-                      KuisModel(
-                        soal: '1 kali 1',
-                        pilihan: ['1', '2', '3'],
-                        jawaban: '1',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 2',
-                        pilihan: ['1', '2', '3'],
-                        jawaban: '2',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 3',
-                        pilihan: ['1', '2', '3'],
-                        jawaban: '3',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 4',
-                        pilihan: ['3', '4', '5'],
-                        jawaban: '4',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 5',
-                        pilihan: ['3', '4', '5'],
-                        jawaban: '5',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 6',
-                        pilihan: ['5', '6', '7'],
-                        jawaban: '6',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 7',
-                        pilihan: ['5', '6', '7'],
-                        jawaban: '7',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 8',
-                        pilihan: ['7', '8', '9'],
-                        jawaban: '8',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 9',
-                        pilihan: ['7', '8', '9'],
-                        jawaban: '9',
-                      ),
-                      KuisModel(
-                        soal: '1 kali 1 0',
-                        pilihan: ['8', '10', '9'],
-                        jawaban: '10',
-                      ),
-                    ];
-                    Get.to(KuisDetailPage(listKuis: listKuis));
-                  },
-                ),
               ],
             ),
             Align(
